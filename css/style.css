@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+section{
+    padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/* navigation start hear */
+
+.nav{
+    width: 100vw;
+    background-color:#e74c3c;
+    color: #fff;
+}
+#logo{
+	font-size: 1rem;
+	margin-top: 5px;
+}
+ 
+#manu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+#manu ul{
+    display:flex;
+    list-style: none;
+    margin-top:0.8rem;
+}
+#manu ul li a{
+    color: #fff;
+    padding: 0 1rem;
+    margin-top: 10px;
+}
+
+#manu ul li a:hover{
+   background-color: #c0392b;
+   padding: 1.3rem;
+}
+
+/* <!-- navigation end hear --> */
+/* <!-- ------------------------------------------------------------------------------------------------ --> */
+/* <!-- heder start hear --> */
+#heder{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+.banner-title{
+    
+    margin-top: 4rem;
+}
+.title{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding:1rem;
+    margin-bottom: 0px;
+    
+}
+
+.banner-title p {
+    background: rgba(231, 76, 60, 0.7);
+    display: inline-block;
+    padding:1rem;
+    color: #fff;
+    font-size:1.3rem;
+    margin-top:0px;
+}
+/* <!-- heder end hear --> */
+
+/* <!-- ------------------------------------------------------------------------------------------- --> */
+/* <!-- secund section --> */
+.sub-hed{
+    text-align: center;
+}
+.sub-hed:after{
+	background: #e74c3c;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 20px auto;
+}
+#service-box{
+    text-align: center;
+    padding: 0rem 1.9rem;
+}
+
+#service-box i{
+    font-size:5rem;
+    color: #e74c3c;
+    margin:1.5rem;
+}
+#service-box p{
+    font-size:1.1rem;
+}
+/* <!-- secund section end --> */
+/* <!-- ------------------------------------------------------------------------------------- --> */
+/* <!-- testimonial  --> */
+.Testimonials{
+    background-image: url(../img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.Testimonials img{
+    border-radius: 50%;
+}
+.Testimonials:before{
+	background:rgba(52, 73, 94, 0.7);
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* <!-- testimonial end hear --> */
+/* <!-- ------------------------------------------------------------------------------------------- --> */
+
+/* <!-- news section --> */
+.post-date:before{
+	content: "\f073";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+.news h3,a{
+    color:#e74c3c;
+    padding: 0.5rem 0;
+    
+}
+.post-date{
+    font-size: 0.8rem;
+}
+a.readmore:after{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-left: 5px;
+}
+/* <!-- news section end hear --> */
+/* <!------------------------------------------------------------------------------------------- --> */
+/* <!-- footer fist strat her --> */
+footer{
+    background-color:#34495e;
+    color: #fff;
+}
+.latest-news a:before{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-right: 5px;
+    color: #fff;
+}
+#color{
+    color: #fff;
+}
+
+footer h4:after{
+	content: "";
+	background: #fff;
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 5px 0;
+}
+
+/* <!-- footer end hear --> */
+/* ------------------------------------------------------------------------------- */
+/* <!-- footer-secund start hear --> */
+.secund-footer{
+	background: #2c3e50;
+    color: #fff;
+}
+.social-media{
+    list-style: none;
+    display:flex;
+    
+}
+.social-media a{
+    color: #fff;
+    padding-left: 0.6rem;
+    font-size:1.5rem;
+}
+
+/* <!-- footer end hear --> */
+
+@media (max-width: 768px){
+    html{
+        font-size: 16px;
+    }
+
+    section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+
+    .Testimonials{
+       text-align: center;
+    }
+    .Testimonials p{
+        margin-top: 1rem;
+     }
+    .Testimonials img{
+        border-radius: 50%;
+    }
+    .Testimonials:before{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .news img{
+        background-size: cover;
+        padding: 0.5rem 0;
+        width: 100%;
+        
+    }
+    #bootem{
+        padding-bottom: 1rem;
+    }
+    #manu ul il{ 
+        display: block;
+        text-align: center;
+    }
+    #logo{
+        text-align: center;
+    }
+    .sanket{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
